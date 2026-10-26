@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+PRODID:-//Pashun Sports//Course Demo Environment v2//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pashun-monthly-us-sales-review-v2-2026@pashunsports.com
+DTSTAMP:20260105T090000Z
+DTSTART;TZID=Europe/London:20260205T150000
+DTEND;TZID=Europe/London:20260205T160000
+RRULE:FREQ=MONTHLY;BYDAY=1TH
+SUMMARY:Monthly US Sales Review
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=Paul Ashun:mailto:paul@pashunsports.com
+ATTENDEE;CN=Paul Ashun;ROLE=CHAIR;PARTSTAT=ACCEPTED:mailto:paul@pashunsports.com
+ATTENDEE;CN=Morgan Reyes;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED:mailto:morgan.reyes@pashunsports.com
+DESCRIPTION:Agenda:\n1. Sell-through vs. forecast (Pashun Pro Tee US range)\n2. Invoice status (ref PSP-INV-1042 and follow-on orders)\n3. Stock cover by US state\n4. Risks and open questions for Finance\n\nRecurring monthly review between Paul Ashun (Founder & Director) and Morgan Reyes (Head of Finance) — both internal Pashun Sports T-Shirts colleagues.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+PRODID:-//Pashun Sports//Course Demo Environment v2//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pashun-weekly-production-catchup-v2-2026@pashunsports.com
+DTSTAMP:20260105T090000Z
+DTSTART;TZID=Europe/London:20260112T093000
+DTEND;TZID=Europe/London:20260112T100000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Weekly Production Catch-Up
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=Paul Ashun:mailto:paul@pashunsports.com
+ATTENDEE;CN=Paul Ashun;ROLE=CHAIR;PARTSTAT=ACCEPTED:mailto:paul@pashunsports.com
+ATTENDEE;CN=Jamie Jordan;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED:mailto:jamie.jordan@pashunsports.com
+DESCRIPTION:Agenda:\n1. Ridgeline Apparel Supply fabric order status\n2. US range production schedule vs. Pro Tee Planner tasks\n3. Any blockers for this week's production\n4. AOB\n\nRecurring weekly production sync between Paul Ashun and Jamie Jordan (Project Manager).
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
